@@ -13,7 +13,7 @@ http://yyssxx.cn/
 """
 def  get_data():
 
-    f = open("yyssxx.cn.txt",'w')
+    f = open("data.txt",'w')
     sum = 1
     url = "http://yyssxx.cn/"
     print(url)
@@ -111,4 +111,4 @@ def install_mysql(file_name,url):
 
 if __name__ == '__main__':
     get_data()
-    install_mysql("yyssxx.cn.txt","http://yyssxx.cn/")
+    install_mysql("data.txt","http://yyssxx.cn/")
